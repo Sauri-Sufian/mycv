@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+     
+}
+.display{
+    display: inline-block;
+}
+.card{
+    display: flex;
+    border-top: 10px solid #1D3F64;
+    border-right: 10px solid #1D3F64;
+    border-bottom: 10px solid #1D3F64;
+}
+.datebar{
+    display: inline-block;
+    
+   height: 100%;
+   width: 10rem;
+   background-color:#1D3F64; 
+}
+
+.expdate{
+    margin-top: 482px;
+    margin-left: 65px;
+   
+    color: white;
+}
+
+.edudate{
+    margin-top: 210px;
+    margin-left: 65px;
+    color: white;
+}
+
+.edudate h5{
+    margin-top: -10px;
+}
+.closer{
+    margin-left:60px;
+}
+.infobar{
+    height: 100%;
+   width: 40rem;
+   /* background-color:rgba(202, 192, 192, 0.582) ;  */
+    background-color: white; 
+    
+}
+.impcolor{
+   color: #002E58;
+}
+.topcard{
+    padding-left: 4px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.info{
+    margin-top: -45px;
+}
+.infodetails{
+  margin-right: 130px;
+}
+.git{
+    margin-left: -73px;
+}
+img{
+    margin: 12px;
+    float: right;
+    border-radius: 50%;
+}
+
+.biofont{
+    font-size: 30px;
+    font-weight: 600;
+}
+.list{
+    margin-top: -10px;
+    list-style: none;
+}
+
+.listfont{
+    margin-top: -10px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: rgb(85, 82, 82);
+}
