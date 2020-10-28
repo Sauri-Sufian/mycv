@@ -24,20 +24,20 @@ body{
 }
 
 .expdate{
-    margin-top:29.5rem ; /*482px*/
+    margin-top:29.6rem ; /*482px*/
     margin-left:3rem ;
-   
+ 
     color: white;
 }
 
 .edudate{
-    margin-top: 13.5rem;
+    margin-top: 13.0rem;
     margin-left: 3rem;
     color: white;
 }
 
 .edudate h5{
-    margin-top: -10px;
+    margin-top: -12px;
 }
 .closer{
     margin-left:50px;
@@ -72,7 +72,7 @@ a{
 img{
     margin: 12px;
     float: right;
-    border-radius: 50%;
+      border-radius: 50%;  
 }
 
 .biofont{
@@ -89,4 +89,49 @@ img{
     margin-bottom: 50px;
     font-size: 15px;
     color: rgb(85, 82, 82);
+}
+
+*{box-sizing:border-box}
+.skillContainer{
+width: 50%;
+background-color: #ddd;
+border-radius: 20px;
+}
+
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.bgSkills{
+    background-color:#729fc4 ;
+    border-radius: 20px;
+}
+.competitive{
+    width: 50%;   
+}
+.staticFrontEnd{
+width: 70%;
+}
+.React{
+    width: 75%;
+}
+.backend{
+    width: 50%;
+}
+.database{
+    width: 60%;
+}
+.os{
+    width: 50%;
+}
+.language{
+    width: 75%;
+}
+.Data_algo{
+    width: 70%;
+}
+.automation{
+    width: 30%;
 }
