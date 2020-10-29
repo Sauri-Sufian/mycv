@@ -192,3 +192,9 @@ width: 70%;
 .git{ 
     width: 75%;
 }
+
+@media (max-width:1000px){
+    .skill{
+        width: 100%;
+    }
+}
