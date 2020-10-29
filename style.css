@@ -1,103 +1,157 @@
 body{
-    margin: 0;
-    padding: 0; 
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding: 0;
     display: flex;
-    justify-content: center;
-    font-family: sans-serif;
-     
-}
-.display{
-    display: inline-block;
+    justify-content:center;
+  
+    font-family:  sans-serif;
+    
 }
 .card{
+   
     display: flex;
-    border-top: 10px solid #1D3F64;
-    border-right: 10px solid #1D3F64;
-    border-bottom: 10px solid #1D3F64;
-}
-.datebar{
-    display: inline-block;
+    flex-direction: row;
+    border-right: 5px solid #1D3F64;
+    border-top: 5px solid #1D3F64;
+    border-bottom: 5px solid #1D3F64;
+    border-left: 7rem solid #1D3F64;
+    box-shadow: 2px 10px 15px rgb(139, 134, 134)  ;
     
-   height: 100%;
-   width: 10em;
-   background-color:#1D3F64; 
 }
 
-.expdate{
-    margin-top:29.6rem ; /*482px*/
-    margin-left:3rem ;
+.importantColor{
+    color: #1D3F64;
+    font-family: 'Staatliches', cursive;
+}
+.primaryColor{
+    color: rgb(2, 0, 0);
+}
+ /* .main{
+     width: 100%; 
+}   */
+
+.spacer{
+    margin-bottom:50PX ;
+}
+.contact{
+    display: block;
+    
  
-    color: white;
 }
-
-.edudate{
-    margin-top: 13.0rem;
-    margin-left: 3rem;
-    color: white;
-}
-
-.edudate h5{
-    margin-top: -12px;
-}
-.closer{
-    margin-left:50px;
-}
-.infobar{
-    height: 100%;
-   width: 40em;
-   /* background-color:rgba(202, 192, 192, 0.582) ;  */
-    background-color: white; 
+.contact ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
     
 }
-.impcolor{
-   color: #002E58;
-}
-.topcard{
-    padding-left: 4px;
-    margin-left: 20px;
-}
-a{
+.contact a,.contactList{
     text-decoration: none;
     color: black;
+    list-style: none;
+    padding: 0;
+    margin-left: 2px;
+   
+    /* margin-bottom: .8rem; */
+   
 }
-.info{
-    margin-top: -45px;
+i {
+    padding-left: 1rem;
+    margin-right: 5px;
 }
-.infodetails{
-  margin-right: 130px;
-}
-.git{
-    margin-left: -73px;
-}
-img{
-    margin: 12px;
-    float: right;
-      border-radius: 50%;  
+ul h5{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
 }
 
-.biofont{
-    font-size: 30px;
-    font-weight: 600;
+
+.idInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
-.list{
-    margin-top: -10px;
+.infoControl{
+    display: inline-block;
+    min-width: 20%;
+   
+    
+}
+/* .imageControl{
+    justify-items: end;
+} */
+img{  
+    
+    height: 200px;
+    width: auto;
+    border-radius: 100em;
+}
+.name, .designation{
+    font-size: 30px;
+    padding: .5rem;
+}
+.point{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.intro{
+    padding: .5rem;
+    font-size: 15px;
+    font-weight: 200;
+    color: black;
+}
+
+.exp li {
+    list-style: none;
+    margin-top: 3rem;
+}
+
+
+.experiance a, li{
+    text-decoration: none;
+    list-style: circle;
+    color: black;
+    /* margin: .8rem; */
+    font-size: 16px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+  
+   margin: .5rem;
+   width: 50%;
+}
+.fixed{
+    max-width: 5rem;
+}
+.vertical{
+    width:1px;
+    background-color: gray;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.uni{
+    margin-top: 3.6rem;
+    
+}
+.uni li{
     list-style: none;
 }
-
-.listfont{
-    margin-top: -10px;
-    margin-bottom: 50px;
-    font-size: 15px;
-    color: rgb(85, 82, 82);
+.education{
+    margin-left: -1rem;
 }
-
 *{box-sizing:border-box}
 .skillContainer{
 width: 50%;
 background-color: #ddd;
 border-radius: 20px;
 }
-
+.skill{
+    width: 50%;
+}
 .skills{
     text-align: right;
     padding-top: 10px;
@@ -134,4 +188,7 @@ width: 70%;
 }
 .automation{
     width: 30%;
+}
+.git{ 
+    width: 75%;
 }
